@@ -1,0 +1,19 @@
+body {
+    background-color: powderblue;
+}
+hr {
+    border-color: grey;
+    border-style:none;
+    border-top-style:dotted;
+    border-width:5px;
+    width:10%;
+}
+h1 {
+    color: #C147E9;
+}
+h3{
+    color: #C147E9;
+}
+#heading{
+    color:peru;
+}
