@@ -1,5 +1,10 @@
-body {
+.main{
+    margin: 0;
     background-color: powderblue;
+}
+.appaji{
+    margin: 0;
+    text-align: center;
 }
 hr {
     border-color: grey;
@@ -7,13 +12,86 @@ hr {
     border-top-style:dotted;
     border-width:5px;
     width:10%;
-}
-h1 {
-    color: #C147E9;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 h3{
     color: #C147E9;
 }
 #heading{
     color:peru;
+}
+#intro{
+    color:peru;
+    font-family: 'Sacramento', cursive;
+    font-size:xx-large;
+}
+#program{
+    font-family: 'Sacramento', cursive;
+    color:darkblue;
+    font-size:x-large;
+}
+.firstContainer{
+    background-color: powderblue;
+    padding: 50px;
+    
+}
+.topCloud{
+    position:relative;
+    left:30%;
+}
+.middleCloud{
+    position:absolute;
+    left:10%;
+}
+.bottomCloud{
+    position: absolute;
+
+}
+.panda{
+    position:absolute;
+    width:20%;
+    height: 40%;
+    background-color: powderblue;
+    top:60%;
+    right:80%;
+
+}
+.vishwa{
+    margin-top: 10px;
+
+}
+.cpp{
+    width:10%;
+    height: 10%;
+    margin-right: 20px;
+}
+.java{
+    width:10%;
+    height: 10%;
+    margin-right: 20px;
+}
+.c{
+    width:10%;
+    height: 10%;
+    margin-right: 20px;
+}
+.kali{
+    width:10%;
+    height: 10%;
+}
+.python{
+    width:10%;
+    height: 10%;
+    margin-right: 20px;
+}
+.cvIcon{
+    width:10%;
+    height: 10%;
+}
+.resume{
+    margin-top: 20px;
+}
+.lastContainer{
+    margin-top: 20px;
 }
