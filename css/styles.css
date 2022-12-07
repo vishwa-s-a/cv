@@ -20,6 +20,7 @@ h3{
 }
 .profile-image{
     border-radius: 100%;
+    
 }
 #heading{
     color:peru;
@@ -37,12 +38,23 @@ h3{
 .firstContainer{
     background-color: powderblue;
     padding: 50px 50px 10px 50px;
+    margin-bottom: 20px;
     
 }
 .topCloud{
     position:relative;
     left:30%;
 }
+@media (max-width:665px){
+    .mountain{
+        position:relative;
+        width:80%;
+    }
+    .cloud{
+        width:20%;
+    }
+}
+
 .middleCloud{
     position:absolute;
     left:10%;
