@@ -18,22 +18,25 @@ hr {
 h3{
     color: #C147E9;
 }
+.profile-image{
+    border-radius: 100%;
+}
 #heading{
     color:peru;
 }
 #intro{
     color:peru;
     font-family: 'Sacramento', cursive;
-    font-size:xx-large;
+    font-size:50px;
 }
 #program{
     font-family: 'Sacramento', cursive;
     color:darkblue;
-    font-size:x-large;
+    font-size:35px;
 }
 .firstContainer{
     background-color: powderblue;
-    padding: 50px;
+    padding: 50px 50px 10px 50px;
     
 }
 .topCloud{
@@ -48,15 +51,7 @@ h3{
     position: absolute;
 
 }
-.panda{
-    position:absolute;
-    width:20%;
-    height: 40%;
-    background-color: powderblue;
-    top:60%;
-    right:80%;
 
-}
 .vishwa{
     margin-top: 10px;
 
@@ -94,4 +89,39 @@ h3{
 }
 .lastContainer{
     margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: aquamarine;
+}
+.footer-link{
+    margin-left: 20px;
+}
+.copywrite{
+    color:rgb(152, 152, 159);
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
 }
